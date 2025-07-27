@@ -1,6 +1,6 @@
 const express = require('express')
 const res = require('express/lib/response')
-const db = require('./server/config/db')
+// const db = require('./server/config/db')
 const cors = require('cors')
 const app = express()
 const PORT = 3015
