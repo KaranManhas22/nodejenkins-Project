@@ -15,7 +15,7 @@ pipeline {
         stage('Checkout Repository') {
             steps {
                 echo 'Cloning the GitHub repository...'
-                git branch: 'main', url: 'https://github.com/malhisimrat/nodejenkins.git'
+                git branch: 'main', url: 'https://github.com/KaranManhas22/nodejenkins-Project.git'
             }
         }
 
