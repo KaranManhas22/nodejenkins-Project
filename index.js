@@ -3,7 +3,7 @@ const res = require('express/lib/response')
 // const db = require('./server/config/db')
 const cors = require('cors')
 const app = express()
-const PORT = 3015
+const PORT = 2004
 const apiRoutes = require('./server/routes/apiRoutes')
 
 app.use(cors());
