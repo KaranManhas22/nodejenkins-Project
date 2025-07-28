@@ -4,7 +4,7 @@
   "description": "",
   "main": "start",
   "scripts": {
-    "start": "node index.js",
+    "start": "PORT=2004 node index.js",
     "build": "echo  \"This is running properly\"",
     "test": "echo \"No tests available\""
   },
